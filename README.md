@@ -24,7 +24,7 @@ pod 'YMYFontSizeSwift'
 end
 ```
 
-2、手动导入，下载工程，在工程目录下把 "YMYFontSize" 文件夹拖到你的工程中使用。
+2、手动导入，下载工程，在工程目录下把 "YMYFontSizeSwift" 文件夹拖到你的工程中使用。
 
 
 ## 声明：
