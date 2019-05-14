@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YMYFontSizeSwift"
-  s.version      = "1.0.7"
+  s.version      = "1.0.8"
   s.summary      = "全局字体大小(Swift)。"
 
   # This description is used to generate tags and improve search results.
@@ -65,6 +65,7 @@ Pod::Spec.new do |s|
 
   # s.platform     = :ios
   s.platform     = :ios, "8.0"
+  s.swift_version = "5.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -91,9 +92,9 @@ Pod::Spec.new do |s|
   #
 
   s.subspec 'Category' do |ss|
-      ss.source_files = 'YMYFontSizeSwiftDemo/YMYFontSizeSwiftDemo/YMYFontSizeSwift/Category/*'
+      ss.source_files = "YMYFontSizeSwift/YMYFontSizeSwift/YMYFontSizeSwift/Category/*"
   end
-  s.source_files  = 'YMYFontSizeSwiftDemo/YMYFontSizeSwiftDemo/YMYFontSizeSwift/*'
+  s.source_files  = "YMYFontSizeSwift/YMYFontSizeSwift/YMYFontSizeSwift/*"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -132,7 +133,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+  s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
