@@ -1,5 +1,5 @@
 //
-//  YMYFontSize.swift
+//  YMYFontSizeSwift.swift
 //  YMYFontSizeSwift
 //
 //  Created by yumingyue on 2019/5/13.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class YMYFontSize: NSObject {
+class YMYFontSizeSwift: NSObject {
     // 修改全局字体大小
     class func setupFontSize(_ fontSize: CGFloat) {
         UserDefaults.standard.set(Float(fontSize), forKey: YMY_FONT_SIZE)

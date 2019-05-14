@@ -29,14 +29,14 @@ class ViewController: UIViewController {
 
     @IBAction func sliderSize(_ sender: UISlider) {
         // 1.设置全局字体大小
-        YMYFontSize.setupFontSize(CGFloat(sender.value))
-        l_size.text = String(format: "%.1f", YMYFontSize.currentFontSize())
+        YMYFontSizeSwift.setupFontSize(CGFloat(sender.value))
+        l_size.text = String(format: "%.1f", YMYFontSizeSwift.currentFontSize())
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         // 2.获取当前字体大小
-        let size = YMYFontSize.currentFontSize()
+        let size = YMYFontSizeSwift.currentFontSize()
         
         l_size.text = String(format: "%.1f", size)
         slider.value = Float(size)

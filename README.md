@@ -6,11 +6,11 @@
 
 1、设置全局字体大小（举例如下）
 ```swift
-YMYFontSize.setupFontSize(14)
+YMYFontSizeSwift.setupFontSize(14)
 ```
 2、如有需要获取设定的全局字体大小（举例如下）
 ```swift
-let size = YMYFontSize.currentFontSize()
+let size = YMYFontSizeSwift.currentFontSize()
 ```
 
 ## 导入方式：
