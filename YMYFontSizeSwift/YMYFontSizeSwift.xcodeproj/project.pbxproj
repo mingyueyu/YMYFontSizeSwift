@@ -68,24 +68,24 @@
 		D0A1DCDE2289A72700DDECC1 /* YMYFontSizeSwift */ = {
 			isa = PBXGroup;
 			children = (
-				D0A1DCF12289A74700DDECC1 /* YMYFontSize */,
 				D0A1DCDF2289A72700DDECC1 /* AppDelegate.swift */,
-				D0A1DCE12289A72700DDECC1 /* ViewController.swift */,
-				D0A1DCE32289A72700DDECC1 /* Main.storyboard */,
 				D0A1DCE62289A72700DDECC1 /* Assets.xcassets */,
-				D0A1DCE82289A72700DDECC1 /* LaunchScreen.storyboard */,
 				D0A1DCEB2289A72700DDECC1 /* Info.plist */,
+				D0A1DCE82289A72700DDECC1 /* LaunchScreen.storyboard */,
+				D0A1DCE32289A72700DDECC1 /* Main.storyboard */,
+				D0A1DCE12289A72700DDECC1 /* ViewController.swift */,
+				D0A1DCF12289A74700DDECC1 /* YMYFontSizeSwift */,
 			);
 			path = YMYFontSizeSwift;
 			sourceTree = "<group>";
 		};
-		D0A1DCF12289A74700DDECC1 /* YMYFontSize */ = {
+		D0A1DCF12289A74700DDECC1 /* YMYFontSizeSwift */ = {
 			isa = PBXGroup;
 			children = (
 				D0A1DCF42289A8C700DDECC1 /* Category */,
 				D0A1DCF22289A81400DDECC1 /* YMYFontSize.swift */,
 			);
-			path = YMYFontSize;
+			path = YMYFontSizeSwift;
 			sourceTree = "<group>";
 		};
 		D0A1DCF42289A8C700DDECC1 /* Category */ = {
