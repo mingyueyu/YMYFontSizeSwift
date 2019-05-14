@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YMYFontSizeSwift"
-  s.version      = "1.0.6"
+  s.version      = "1.0.7"
   s.summary      = "全局字体大小(Swift)。"
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   # s.description  = <<-DESC
-  #                  DESC
+  #                 DESC
 
   s.homepage     = "https://github.com/mingyueyu/YMYFontSizeSwift"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -89,10 +89,11 @@ Pod::Spec.new do |s|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
+
   s.subspec 'Category' do |ss|
-      ss.source_files = "YMYFontSizeSwift/YMYFontSizeSwift/YMYFontSizeSwift/Category/*"
+      ss.source_files = "YMYFontSizeSwift/YMYFontSizeSwift/YMYFontSize/Category/*"
   end
-  s.source_files  = "YMYFontSizeSwift/YMYFontSizeSwift/YMYFontSizeSwift/*"
+  s.source_files  = "YMYFontSizeSwift/YMYFontSizeSwift/YMYFontSize/*"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -131,7 +132,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  s.requires_arc = true
+  # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
