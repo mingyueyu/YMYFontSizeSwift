@@ -91,9 +91,9 @@ Pod::Spec.new do |s|
   #
 
   s.subspec 'Category' do |ss|
-      ss.source_files = "YMYFontSizeSwift/YMYFontSizeSwift/YMYFontSize/Category/*"
+      ss.source_files = "YMYFontSizeSwiftDemo/YMYFontSizeSwift/YMYFontSize/Category/*"
   end
-  s.source_files  = "YMYFontSizeSwift/YMYFontSizeSwift/YMYFontSize/*"
+  s.source_files  = "YMYFontSizeSwiftDemo/YMYFontSizeSwift/YMYFontSize/*"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
