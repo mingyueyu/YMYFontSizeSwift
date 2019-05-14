@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  YMYFontSizeSwift
+//  YMYFontSizeSwiftDemo
 //
-//  Created by yumingyue on 2019/5/13.
+//  Created by yumingyue on 2019/5/15.
 //  Copyright © 2019年 mingyueyu. All rights reserved.
 //
 

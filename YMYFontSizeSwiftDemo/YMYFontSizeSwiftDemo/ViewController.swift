@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  YMYFontSizeSwift
+//  YMYFontSizeSwiftDemo
 //
-//  Created by yumingyue on 2019/5/13.
+//  Created by yumingyue on 2019/5/15.
 //  Copyright © 2019年 mingyueyu. All rights reserved.
 //
 
@@ -18,7 +18,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var l_size: UILabel!
     @IBOutlet weak var slider: UISlider!
     
@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     @IBAction func sliderSize(_ sender: UISlider) {
         // 1.设置全局字体大小
         YMYFontSizeSwift.setupFontSize(CGFloat(sender.value))
@@ -42,4 +42,5 @@ class ViewController: UIViewController {
         slider.value = Float(size)
     }
 }
+
 
