@@ -19,6 +19,7 @@
 		D00BDF94228B698600C8ACD1 /* YMYTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00BDF8D228B698600C8ACD1 /* YMYTextField.swift */; };
 		D00BDF95228B698600C8ACD1 /* YMYModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00BDF8E228B698600C8ACD1 /* YMYModelView.swift */; };
 		D00BDF96228B698600C8ACD1 /* YMYFontSizeSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00BDF8F228B698600C8ACD1 /* YMYFontSizeSwift.swift */; };
+		D053CC21228C574B00662D79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D053CC20228C574B00662D79 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		D00BDF8D228B698600C8ACD1 /* YMYTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMYTextField.swift; sourceTree = "<group>"; };
 		D00BDF8E228B698600C8ACD1 /* YMYModelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMYModelView.swift; sourceTree = "<group>"; };
 		D00BDF8F228B698600C8ACD1 /* YMYFontSizeSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMYFontSizeSwift.swift; sourceTree = "<group>"; };
+		D053CC20228C574B00662D79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D053CC21228C574B00662D79 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +57,7 @@
 			children = (
 				D00BDF74228B695F00C8ACD1 /* YMYFontSizeSwiftDemo */,
 				D00BDF73228B695F00C8ACD1 /* Products */,
+				D053CC1F228C574B00662D79 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +103,14 @@
 				D00BDF8E228B698600C8ACD1 /* YMYModelView.swift */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		D053CC1F228C574B00662D79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D053CC20228C574B00662D79 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
