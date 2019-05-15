@@ -1,14 +1,14 @@
 
 Pod::Spec.new do |s|
   s.name         = "YMYFontSizeSwift"
-  s.version      = "1.0.9"
+  s.version      = "1.0.10"
   s.summary      = "全局字体大小(Swift)。"
 
   s.homepage     = "https://github.com/mingyueyu/YMYFontSizeSwift"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "余明悦" => "mingyue_yu@icloud.com" }
   # s.platform     = :ios, "9.0"
-  s.swift_version = "4.2"
+  s.swift_version = "4.0"
   
   s.ios.deployment_target = "9.0"
   s.osx.deployment_target = "10.13.6"

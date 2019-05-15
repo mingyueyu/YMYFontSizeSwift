@@ -14,17 +14,7 @@ let size = YMYFontSizeSwift.currentFontSize()
 ```
 
 ## 导入方式：
-
-1、（推荐）cocoapods 导入，在 Podfile 添加
-```ruby
-platform :ios, '9.0'
-
-target 'TargetName' do
-pod 'YMYFontSizeSwift'
-end
-```
-
-2、手动导入，下载工程，在工程目录下把 "YMYFontSizeSwift" 文件夹拖到你的工程中使用。
+下载工程，在工程目录下把 "YMYFontSizeSwift" 文件夹拖到你的工程中使用。
 
 
 ## 声明：
