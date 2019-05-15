@@ -36,3 +36,94 @@ extension UIView {
         NotificationCenter.default.removeObserver(self, name: NSNotification.Name(rawValue: YMY_FONT_SIZE), object: nil)
     }
 }
+
+extension UILabel {
+    override open func awakeFromNib() {
+        super.awakeFromNib()
+        // 监听通知
+        addNote()
+    }
+    
+    override func setUpFontSize() {
+        self.font = UIFont.systemFont(ofSize: fontSize)
+    }
+    
+    override open func removeFromSuperview() {
+        // 移除通知
+        removeNote()
+        super.removeFromSuperview()
+    }
+}
+
+extension UIButton {
+    override open func awakeFromNib() {
+        super.awakeFromNib()
+        // 监听通知
+        addNote()
+    }
+    
+    override func setUpFontSize() {
+        titleLabel?.font = UIFont.systemFont(ofSize: fontSize)
+    }
+    
+    override open func removeFromSuperview() {
+        // 移除通知
+        removeNote()
+        super.removeFromSuperview()
+    }
+}
+
+extension UITextField {
+    override open func awakeFromNib() {
+        super.awakeFromNib()
+        // 监听通知
+        addNote()
+    }
+    
+    override func setUpFontSize() {
+        self.font = UIFont.systemFont(ofSize: fontSize)
+    }
+    
+    override open func removeFromSuperview() {
+        // 移除通知
+        removeNote()
+        super.removeFromSuperview()
+    }
+}
+
+extension UITextView {
+    override open func awakeFromNib() {
+        super.awakeFromNib()
+        // 监听通知
+        addNote()
+    }
+    
+    override func setUpFontSize() {
+        self.font = UIFont.systemFont(ofSize: fontSize)
+    }
+    
+    override open func removeFromSuperview() {
+        // 移除通知
+        removeNote()
+        super.removeFromSuperview()
+    }
+}
+
+extension UISegmentedControl {
+    override open func awakeFromNib() {
+        super.awakeFromNib()
+        // 监听通知
+        addNote()
+    }
+    
+    override func setUpFontSize() {
+        setTitleTextAttributes([NSAttributedString.Key.font:UIFont.boldSystemFont(ofSize: fontSize)], for: UIControl.State.normal)
+        
+    }
+    
+    override open func removeFromSuperview() {
+        // 移除通知
+        removeNote()
+        super.removeFromSuperview()
+    }
+}

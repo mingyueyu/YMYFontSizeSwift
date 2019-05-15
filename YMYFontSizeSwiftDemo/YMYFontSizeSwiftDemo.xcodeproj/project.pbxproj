@@ -12,14 +12,8 @@
 		D00BDF7B228B695F00C8ACD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00BDF79228B695F00C8ACD1 /* Main.storyboard */; };
 		D00BDF7D228B696100C8ACD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00BDF7C228B696100C8ACD1 /* Assets.xcassets */; };
 		D00BDF80228B696100C8ACD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00BDF7E228B696100C8ACD1 /* LaunchScreen.storyboard */; };
-		D00BDF90228B698600C8ACD1 /* YMYSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00BDF89228B698600C8ACD1 /* YMYSegmentedControl.swift */; };
-		D00BDF91228B698600C8ACD1 /* YMYLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00BDF8A228B698600C8ACD1 /* YMYLable.swift */; };
-		D00BDF92228B698600C8ACD1 /* YMYTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00BDF8B228B698600C8ACD1 /* YMYTextView.swift */; };
-		D00BDF93228B698600C8ACD1 /* YMYButtom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00BDF8C228B698600C8ACD1 /* YMYButtom.swift */; };
-		D00BDF94228B698600C8ACD1 /* YMYTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00BDF8D228B698600C8ACD1 /* YMYTextField.swift */; };
 		D00BDF95228B698600C8ACD1 /* YMYModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00BDF8E228B698600C8ACD1 /* YMYModelView.swift */; };
 		D00BDF96228B698600C8ACD1 /* YMYFontSizeSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00BDF8F228B698600C8ACD1 /* YMYFontSizeSwift.swift */; };
-		D053CC21228C574B00662D79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D053CC20228C574B00662D79 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,11 +24,6 @@
 		D00BDF7C228B696100C8ACD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D00BDF7F228B696100C8ACD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D00BDF81228B696100C8ACD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D00BDF89228B698600C8ACD1 /* YMYSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMYSegmentedControl.swift; sourceTree = "<group>"; };
-		D00BDF8A228B698600C8ACD1 /* YMYLable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMYLable.swift; sourceTree = "<group>"; };
-		D00BDF8B228B698600C8ACD1 /* YMYTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMYTextView.swift; sourceTree = "<group>"; };
-		D00BDF8C228B698600C8ACD1 /* YMYButtom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMYButtom.swift; sourceTree = "<group>"; };
-		D00BDF8D228B698600C8ACD1 /* YMYTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMYTextField.swift; sourceTree = "<group>"; };
 		D00BDF8E228B698600C8ACD1 /* YMYModelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMYModelView.swift; sourceTree = "<group>"; };
 		D00BDF8F228B698600C8ACD1 /* YMYFontSizeSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMYFontSizeSwift.swift; sourceTree = "<group>"; };
 		D053CC20228C574B00662D79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -45,7 +34,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D053CC21228C574B00662D79 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,11 +83,6 @@
 		D00BDF88228B698600C8ACD1 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				D00BDF89228B698600C8ACD1 /* YMYSegmentedControl.swift */,
-				D00BDF8A228B698600C8ACD1 /* YMYLable.swift */,
-				D00BDF8B228B698600C8ACD1 /* YMYTextView.swift */,
-				D00BDF8C228B698600C8ACD1 /* YMYButtom.swift */,
-				D00BDF8D228B698600C8ACD1 /* YMYTextField.swift */,
 				D00BDF8E228B698600C8ACD1 /* YMYModelView.swift */,
 			);
 			path = Category;
@@ -185,14 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D00BDF95228B698600C8ACD1 /* YMYModelView.swift in Sources */,
-				D00BDF93228B698600C8ACD1 /* YMYButtom.swift in Sources */,
-				D00BDF92228B698600C8ACD1 /* YMYTextView.swift in Sources */,
-				D00BDF91228B698600C8ACD1 /* YMYLable.swift in Sources */,
 				D00BDF96228B698600C8ACD1 /* YMYFontSizeSwift.swift in Sources */,
-				D00BDF90228B698600C8ACD1 /* YMYSegmentedControl.swift in Sources */,
 				D00BDF78228B695F00C8ACD1 /* ViewController.swift in Sources */,
 				D00BDF76228B695F00C8ACD1 /* AppDelegate.swift in Sources */,
-				D00BDF94228B698600C8ACD1 /* YMYTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
