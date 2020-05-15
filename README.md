@@ -2,6 +2,9 @@
 
 用户设置字体大小，仅需一行代码即可。（仅限于UILabel、UIButton、UITextField、UITextView、UISegmentedControl。如需添加或建议，请联系本人，在本页下面有联系方式。）
 
+## 导入方式：
+下载工程，在工程目录下把 "YMYFontSizeSwift" 文件夹拖到你的工程中使用。
+
 ## 使用说明：
 
 1、设置全局字体大小（举例如下）
@@ -12,10 +15,6 @@ YMYFontSizeSwift.setupFontSize(14)
 ```swift
 let size = YMYFontSizeSwift.currentFontSize()
 ```
-
-## 导入方式：
-下载工程，在工程目录下把 "YMYFontSizeSwift" 文件夹拖到你的工程中使用。
-
 
 ## 声明：
 ```
